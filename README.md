@@ -26,9 +26,9 @@ The two datasets that we used in our experiments are included.
 
 #### Train on the exisiting datasets
 
-you can use `python3 main.py --dataset {dataset_name}` to train SCAD on dataset. Other hyperparameters can be found in the code.
+you can use `python3 main.py --p train --dataset {dataset_name}` to train SCAD on dataset. Other hyperparameters can be found in the code.
 
-For example, you can use `python3 main.py --dataset lfm` to train SCAD model on the Lfm-1b dataset.
+For example, you can use `python3 main.py --p train --dataset lfm` to train SCAD model on the Lfm-1b dataset.
 
 #### Train on your own datasets
 
