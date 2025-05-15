@@ -32,7 +32,21 @@ For example, you can use `python3 main.py --p train --dataset lfm` to train SCAD
 
 #### Train on your own datasets
 
-If you want to train models on your own dataset, you should prepare the following two properly formatting files.
+If you want to train models on your own datasets, you should prepare the following two properly formatting files.
 
 - user_item_8: nine numbers in a line `<user_id>` `<item_id1> ... <item_id8>` (a user with 8 item that it interacted with)
 - user_item_neigh: ten numbers in a line `<user_id>` `<neigh_id>` `<item_id1> ... <item_id8>` (a user and a neighbor with 8 items that the neighbor interact with)
+
+### Testing
+
+To test a well trained SCAD model, you should finish training it on the dataset that you are going to test, and save the model in local files.
+
+#### Test on the exisiting datasets
+
+you can use `python3 main.py --p test --dataset {dataset_name}` to train SCAD on dataset. Other hyperparameters can be found in the code.
+
+For example, you can use `python3 main.py --p test --dataset lfm` to train SCAD model on the Lfm-1b dataset.
+
+#### Train on your own datasets
+
+If you want to test models on your own datasets, you should prepare the two properly formatting files mentioned above as well.
