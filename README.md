@@ -1,8 +1,6 @@
 # SCAD: A Lightweight Recommendation Model based on Multi-interest
 
-[Xiaotong Cui](cxt20030114@gmail.com), [Nan Wang](wangnan@hlju.edu.cn)
-
-RecSys2025 under review
+[Xiaotong Cui](cxt20030114@gmail.com), [Nan Wang*](wangnan@hlju.edu.cn)
 
 ## Prerequisites
 
